@@ -7,7 +7,7 @@ def main():
     
     while True:
         print("\n" + "="*40)
-        print(f"💰 CURRENT BALANCE: ${balance}")
+        print(f" CURRENT BALANCE: ${balance}")
         print("="*40)
         print("1. Coin Flip (2x payout)")
         print("2. Dice Roll (6x payout)")
@@ -78,7 +78,7 @@ def main():
             print(f"🎉 YOU WON ${payout}! 🎉")
             balance += payout
         else:
-            print("😞 You lost your bet.")
+            print(" You lost your bet.")
             
         if balance <= 0:
             print("\n💸 You're broke! Game over.")
